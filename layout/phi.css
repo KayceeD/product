@@ -1,0 +1,136 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1280px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+ul#connect{
+    display: flex;
+}
+ul#connect a{
+    padding: 10px 20px;
+    color: #acaaaa;
+    display: block;
+    text-align: center;
+}
+#logo{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-menu{
+    display: flex;
+}
+.main-menu a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #000;
+    display: block;
+    font-weight: bold;
+}
+
+#banner{
+    background: url(img/bgtravel.jpg);
+    background-size:cover;
+    background-position: center top;
+    min-height: 567.062px;
+    width: 100%;
+
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0px;
+    transition: all 0.5s ease-in-out;
+}
+header.sticky{
+    z-index: 999;
+    position: fixed;
+    background: #fff;
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+header.sticky #main-menu a{
+    color: #000;
+} 
+header.sticky #logo{
+    color: #000;
+} 
+#content h1{
+    padding: 30px 0px;
+}
+
+#content p{
+    margin-bottom: 1.2rem;
+}
+
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row-footer2{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.colum{
+    width: 25%;
+}
+.colum2{
+    width: 50%;
+    text-align: center;
+}
+.colum a{
+    color: #fff;
+}
+.colum h3{
+    padding-bottom: 15px;
+}
+footer{
+    background: #303030;
+    color: #fff;
+}
+.footer2{
+    background: rgba(0, 0, 0, 0.85);
+}
+.content-H3 a{
+    color: #fff;
+}
+.linkFB{
+    padding-left: 50px;
+}
